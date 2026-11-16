@@ -1,4 +1,5 @@
-// Ejercicio 1
+
+// ******* EJERCICIOS LOGICA ******* //
 
 function Ej1(a) {
     if (a % 3 === 0) {
@@ -8,6 +9,7 @@ function Ej1(a) {
     }
 }
 
+console.log("\nEjercicio 1")
 Ej1(9)
 
 
@@ -16,6 +18,7 @@ function Ej2(x, y) {
     console.log(y >= 10 && y <= 50 ? y + " esta dentro del rango" : y + " no esta dentro del rango");
 }
 
+console.log("\nEjercicio 2")
 Ej2(20, 60)
 
 function Ej3(x) {
@@ -34,4 +37,6 @@ function Ej3(x) {
     }
 }
 
+console.log("\nEjercicio 3")
 Ej3(7);
+
