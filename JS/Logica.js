@@ -9,7 +9,7 @@ function Ej1(a) {
     }
 }
 
-console.log("\nEjercicio 1")
+console.log("Ejercicio 1")
 Ej1(9)
 
 
@@ -18,7 +18,7 @@ function Ej2(x, y) {
     console.log(y >= 10 && y <= 50 ? y + " esta dentro del rango" : y + " no esta dentro del rango");
 }
 
-console.log("\nEjercicio 2")
+console.log("Ejercicio 2")
 Ej2(20, 60)
 
 function Ej3(x) {
@@ -37,6 +37,23 @@ function Ej3(x) {
     }
 }
 
-console.log("\nEjercicio 3")
+console.log("Ejercicio 3")
 Ej3(7);
+
+function Ej4(x) {
+    switch (true) {
+        case x % 3 === 0 && x % 7 === 0:
+            console.log("Es multiple de 3 y 7")
+            break
+        case x % 3 === 0:
+            console.log("Es multiple de 3")
+            break
+        case x % 7 === 0:
+            console.log("Es multiple de 7")
+            break
+    }
+}
+
+console.log("Ejercicio 4")
+Ej4(21)
 
