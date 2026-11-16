@@ -18,3 +18,20 @@ function Ej2(x, y) {
 
 Ej2(20, 60)
 
+function Ej3(x) {
+    if (x >= 9 && x <= 11) {
+        console.log("Excel·lent");
+    } else if (x >= 7) {
+        console.log("Notable");
+    } else if (x >= 6) {
+        console.log("Bé");
+    } else if (x >= 5) {
+        console.log("Suficient");
+    } else if (x > 0) {
+        console.log("Suspès");
+    } else {
+        console.log("No está dentro del rango de notas!");
+    }
+}
+
+Ej3(7);
