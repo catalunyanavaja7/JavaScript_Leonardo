@@ -70,5 +70,21 @@ function ej5(x) {
 console.log("Ejercicio 5")
 ej5(15)
 
+function ej6(cadena) {
+    let numeros = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    let sumaTotal = 0;
 
+    for (let i = 0; i < cadena.length; i++) {
+        for (let j = 0; j < numeros.length; j++) {
+            if (cadena[i] === numeros[j]) {
+                let numero = parseInt(numeros[j])
+                sumaTotal = sumaTotal + numero
+            }
+        }
+    }
+    console.log("Suma Total: " + sumaTotal)
+}
 
+// Sé que hay formas mas faciles de hacerlo pero queria hacerlo a mano para practicar, tambien lo podria haber hecho con match
+console.log("Ejercicio 6")
+ej6("tengo 7 manzanas 7 coches")
