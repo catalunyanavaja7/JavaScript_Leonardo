@@ -147,3 +147,18 @@ function ej10() {
 console.log("Ejercicio 10")
 ej10()
 
+function ej11() {
+    let ast = "* "
+    for (let i = 0; i < 5; i++) {
+        if (i % 2 === 0) {
+            continue
+        }
+
+        console.log(ast)
+        ast += "* "
+    }
+}
+
+console.log("Ejercicio 11")
+ej11()
+
