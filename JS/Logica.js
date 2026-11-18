@@ -119,3 +119,16 @@ function ej8(x) {
 console.log("Ejercicio 8")
 ej8(10)
 
+function ej9() {
+    let ast = "* "
+    for (let i = 0; i < 5; i++) {
+        console.log(ast)
+        ast += "* "
+    }
+}
+
+console.log("Ejercicio 9")
+ej9()
+
+
+
