@@ -88,3 +88,15 @@ function ej6(cadena) {
 // Sé que hay formas mas faciles de hacerlo pero queria hacerlo a mano para practicar, tambien lo podria haber hecho con match
 console.log("Ejercicio 6")
 ej6("tengo 7 manzanas 7 coches")
+
+function ej7(n1, n2, n3) {
+    let numeros = [n1, n2, n3]
+    console.log("Numeros desordenados: " + numeros)
+    numeros.sort((a, b) => b - a)
+    console.log("Numeros ordenados: " + numeros)
+}
+
+console.log("Ejercicio 7")
+ej7(20, 10, 30)
+
+
