@@ -162,3 +162,18 @@ function ej11() {
 console.log("Ejercicio 11")
 ej11()
 
+function ej12(ent) {
+    ent = String(ent)
+
+    let resultado = ""
+
+    for (let i = 0; i < ent.length; i+= 2) {
+        resultado += ent[i + 1] + ent[i]
+    }
+
+    console.log(parseInt(resultado))
+}
+
+console.log("Ejercicio 12")
+ej12(123456)
+
