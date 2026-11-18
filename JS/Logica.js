@@ -130,5 +130,20 @@ function ej9() {
 console.log("Ejercicio 9")
 ej9()
 
+function ej10() {
+    let suma = 0
+    let contador = 0
 
+    do {
+        if (contador % 3 === 0 && contador % 5 === 0) {
+            suma = suma + contador
+            console.log("Contador: " + contador)
+            console.log(suma)
+        }
+        ++contador
+    } while (suma < 1000)
+}
+
+console.log("Ejercicio 10")
+ej10()
 
