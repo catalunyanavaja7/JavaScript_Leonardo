@@ -99,4 +99,23 @@ function ej7(n1, n2, n3) {
 console.log("Ejercicio 7")
 ej7(20, 10, 30)
 
+function ej8(x) {
+    let parells = 0
+    let senars = 0
+
+
+    for (let i = 0; i < x; i++) {
+        if (i % 2 === 0) {
+            parells++
+        }
+        if (i % 2 !== 0) {
+            senars++
+        }
+    }
+    console.log("Parells: " + parells)
+    console.log("Senars: " + senars)
+}
+
+console.log("Ejercicio 8")
+ej8(10)
 
