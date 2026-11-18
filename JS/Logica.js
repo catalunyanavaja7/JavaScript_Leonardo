@@ -57,3 +57,18 @@ function Ej4(x) {
 console.log("Ejercicio 4")
 Ej4(21)
 
+function ej5(x) {
+    let v1 = 0
+    let suma = 0
+    while(v1 < x) {
+        suma++
+        v1 = v1 + suma;
+    }
+    console.log("Total n: " + suma)
+}
+
+console.log("Ejercicio 5")
+ej5(15)
+
+
+
